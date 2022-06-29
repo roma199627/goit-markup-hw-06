@@ -941,4 +941,22 @@ text-align: center;
         border: 1px solid rgba(33, 33, 33, 0.2)  ;
         border-radius: 4px;
         margin-bottom: 28px;
+        outline: none;
+    }
+    .model-input:not(:placeholder-shown){
+        border-color:  #2196F3;  
+    }
+    .model-label{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.16;
+        color: #757575;
+         
+    }
+    .model-text{
+        width: 100%;
+        height: 120px;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        border-radius: 4px; 
+        resize: none;
     }

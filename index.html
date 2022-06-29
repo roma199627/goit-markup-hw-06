@@ -468,9 +468,45 @@
         <button type="button" class="modal-close-btn" data-modal-close>X</button>
         <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
         <form >
-            <input type="text" class="model-input" placeholder="Имя">
-            <input type="text" class="model-input" placeholder="Телефон">
-            <input type="text" class="model-input" placeholder="Почта">
+            <label  class="model-label">
+                Имя
+            <input type="text"
+             class="model-input"
+              name="user-name"
+               placeholder="Имя" 
+               required
+               minlength="4"
+               >
+            </label>
+            <label  class="model-label">
+                Телефон
+            <input type="tel" 
+            class="model-input"
+            name="user-tel"  
+            placeholder="Телефон"
+            required
+            minlength="4"
+            pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+              >
+            </label>
+            <label  class="model-label">
+                Почта
+            <input type="email" 
+            class="model-input" 
+            name="user-email" 
+            placeholder="Почта"
+            required
+            minlength="2"
+            >
+        </label>
+        <label  class="model-label">Комментарий</label>
+        <textarea name="user-text" 
+        id="user-text"
+         cols="30"
+          rows="10"
+          placeholder="Введите текст"
+          class="model-text" ></textarea>
+            <button type="submit">Отправить</button>
         </form>
     </div>
 
