@@ -951,7 +951,7 @@ text-align: center;
         font-size: 12px;
         line-height: 1.16;
         color: #757575;
-         
+         display: block;
     }
     .model-text{
         width: 100%;
