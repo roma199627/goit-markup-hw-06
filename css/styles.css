@@ -970,7 +970,7 @@ text-align: center;
     }
     .modal-icon{
         position: absolute;
-        left: 7px;
+        left: 15px;
         top: 50%;
         transform: translateY(-50%);
     }
