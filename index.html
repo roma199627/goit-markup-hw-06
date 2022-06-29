@@ -468,8 +468,9 @@
         <button type="button" class="modal-close-btn" data-modal-close>X</button>
         <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
         <form >
-            <label  class="model-label">
-                Имя
+            <div class="modal-field">
+            <label  class="model-label"> Имя </label>
+               <div class="input-wrap">
             <input type="text"
              class="model-input"
               name="user-name"
@@ -477,9 +478,14 @@
                required
                minlength="4"
                >
-            </label>
-            <label  class="model-label">
-                Телефон
+            </div>
+            <svg class="modal-icon"  width="18" haight="18">
+                <use href="./img/icons.svg#icon-person" ></use>
+            </svg>
+        </div>
+        <div class="modal-field">
+            <label  class="model-label">Телефон </label>
+            <div class="input-wrap">   
             <input type="tel" 
             class="model-input"
             name="user-tel"  
@@ -487,10 +493,13 @@
             required
             minlength="4"
             pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
-              >
-            </label>
-            <label  class="model-label">
-                Почта
+             >
+            </div>
+            
+        </div>
+            <div class="modal-field">
+            <label  class="model-label"> Почта </label>
+            <div class="input-wrap">
             <input type="email" 
             class="model-input" 
             name="user-email" 
@@ -498,7 +507,9 @@
             required
             minlength="2"
             >
-        </label>
+        </div>
+    </div>
+        <div class="modal-field">
         <label  class="model-label">Комментарий</label>
         <textarea name="user-text" 
         id="user-text"
@@ -506,7 +517,9 @@
           rows="10"
           placeholder="Введите текст"
           class="model-text" ></textarea>
+        </div>
           <fieldset>
+        
             <legend></legend>
             <label for="Соглашаюсь с рассылкой и принимаю Условия договора">Соглашаюсь с рассылкой и принимаю Условия договора</label>
             <input type="checkbox" id="Соглашаюсь с рассылкой и принимаю Условия договора">
