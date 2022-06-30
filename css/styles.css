@@ -974,3 +974,10 @@ text-align: center;
         top: 50%;
         transform: translateY(-50%);
     }
+    .check-text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        color: #757575;
+
+    }
