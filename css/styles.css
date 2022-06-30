@@ -985,7 +985,10 @@ display: flex;
 content: "";
 width: 16px;
 height: 16px;
-border-radius: 3px;
+border-radius: 2px;
 margin-right: 8px ;
 border: 2px solid #212121 ;
+    }
+    .checkbox:checked + .check-text::before{
+        background-color:#2196F3 ;
     }
