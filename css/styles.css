@@ -940,10 +940,11 @@ text-align: center;
         height: 40px;
         border: 1px solid rgba(33, 33, 33, 0.2)  ;
         border-radius: 4px;
-     padding-left: 30px;
+     padding-left: 42px;
+     
         outline: none;
     }
-    .model-input:not(:placeholder-shown){
+    .model-input:focus{
         border-color:  #2196F3;  
     }
     .model-label{
@@ -979,6 +980,7 @@ text-align: center;
         font-size: 14px;
         line-height: 1.71;
         color: #757575;
+ align-items: center;
 display: flex;
     }
     .check-text::before{
@@ -989,6 +991,12 @@ border-radius: 2px;
 margin-right: 8px ;
 border: 2px solid #212121 ;
     }
-    .checkbox:checked + .check-text::before{
+    .modal-check:checked + .check-text::before{
         background-color:#2196F3 ;
+        background-image: url(../img/check.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .modal-check:focus + .check-text::before{
+        border-color:#2196F3  ;
     }
