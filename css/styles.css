@@ -918,6 +918,9 @@ text-align: center;
     top: 8px;
     right: 8px;
 }
+.modal-close-btn:focus{
+background-color: #2196F3;
+}
 .is-hidden{
     visibility: hidden;
     opacity: 0;
@@ -962,10 +965,14 @@ text-align: center;
         border: 1px solid rgba(33, 33, 33, 0.2);
         border-radius: 4px; 
         resize: none;
+        padding: 12px 16px;
+        outline: none;
     }
     .model-text:focus{
-        border-color:  #2196F3;  
+        border-color:  #2196F3; 
     }
+       
+
     .modal-field{
      
     }
@@ -1002,4 +1009,7 @@ border: 2px solid #212121 ;
     }
     .modal-check:focus + .check-text::before{
         border-color:#2196F3  ;
+    }
+    .model-input:focus + .modal-icon{
+        fill: #2196F3;
     }
