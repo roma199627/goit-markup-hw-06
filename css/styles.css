@@ -1062,6 +1062,7 @@ color: #FFFFFF;
     width: 200px;
     height: 50px;
 }
-.modal-icon{
+.footer-icon{
     position: absolute;
+    background-color: brown;
 }
