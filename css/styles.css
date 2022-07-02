@@ -1046,6 +1046,7 @@ font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
 color: #FFFFFF;
+margin-bottom: 20px;
     }
     .footer-input{
        
@@ -1068,6 +1069,8 @@ font-size: 16px;
 line-height: 1.88;
 padding: 10px 62px 10px 29px;
 color: #FFFFFF;
+border: none;
+margin-left: 12px;
 }
 .email-icon{
    
@@ -1075,11 +1078,12 @@ color: #FFFFFF;
     background-color: brown;
 left: 143px;
 top: 10px;
-transform: translateY(-%);
+
 
 
   
 }
 .footer-email{
     display: flex;
+   margin-left: 93px;
 }
