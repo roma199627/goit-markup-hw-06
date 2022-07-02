@@ -1066,12 +1066,7 @@ color: #FFFFFF;
     font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
-padding-left: 12px;
-
-
-
-
-
+padding: 10px 62px 10px 29px;
 color: #FFFFFF;
 }
 .email-icon{
@@ -1080,8 +1075,11 @@ color: #FFFFFF;
     background-color: brown;
 left: 143px;
 top: 10px;
-transform: translateY(-0%);
+transform: translateY(-%);
 
 
   
+}
+.footer-email{
+    display: flex;
 }
