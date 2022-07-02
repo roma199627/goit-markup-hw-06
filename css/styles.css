@@ -1061,8 +1061,27 @@ color: #FFFFFF;
     position: absolute;
     width: 200px;
     height: 50px;
+    background: #2196F3;
+    border-radius: 4px;
+    font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+padding-left: 12px;
+
+
+
+
+
+color: #FFFFFF;
 }
-.footer-icon{
-    position: absolute;
+.email-icon{
+   
+    position: relative;
     background-color: brown;
+left: 143px;
+top: 10px;
+transform: translateY(-0%);
+
+
+  
 }
