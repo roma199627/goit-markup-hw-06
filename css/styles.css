@@ -1048,7 +1048,7 @@ text-transform: uppercase;
 color: #FFFFFF;
     }
     .footer-input{
-        position:  ;
+       
         width:358px ;
         height:50px ;
         border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1058,7 +1058,10 @@ color: #FFFFFF;
     padding-left: 16px;
 }
 .email-btn{
-    position: relative;
+    position: absolute;
     width: 200px;
     height: 50px;
+}
+.modal-icon{
+    position: absolute;
 }
