@@ -907,6 +907,9 @@ text-align: center;
     transform: translate(-50%,-50%) scale(1);
     padding: 40px;
 }
+.modal-x{
+    background-color: aqua;
+}
 .modal-close-btn{
     width: 30px;
     height: 30px;
