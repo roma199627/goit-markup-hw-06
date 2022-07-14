@@ -112,6 +112,11 @@ padding-bottom: 25px ;
 .header-two-item{
     margin-right: 50px;
 }
+.header-two-item:last-child{
+    margin-right: 0;}
+
+    .header-item:last-child{
+        margin-right: 0;}
 .header-item{
     margin-right: 50px;
 }
@@ -123,7 +128,7 @@ display: flex;
 align-items: center;
 }
 .header-two .container{
-    height: 80px;
+   
     display: flex;
     align-items: center;   
 }
@@ -161,7 +166,7 @@ align-items: center;
 
 .link{
 text-decoration: none;
-border-radius: 0px 0px 4px 4px;
+
 
 }
 .header-mail, .header-tel   
