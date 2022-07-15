@@ -157,7 +157,7 @@ align-items: center;
  line-height: 1.14;
  letter-spacing: 0.02em;
  color:var(--title-color) ;
-
+ display: block;
  padding-top: 32px;
  padding-bottom: 32px;
  transition: color 250ms ease ;
@@ -251,13 +251,18 @@ line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 color:var(--title-color) ;
-margin-right: 8px;
+
 padding:  6px 22px 6px 22px;
 border: none;
 border-radius: 4px;
 transition: background 250ms ease ;
 }
-
+.section-item{
+    margin-right: 8px ;
+}
+.section-item:last-child{
+    margin: 0;
+}
 
 .section-list{
  display: flex;
@@ -426,7 +431,7 @@ color:#FFFFFF ;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--title-color);
- 
+ display: block;
   padding-top: 32px;
   padding-bottom: 32px;
   transition: color 250ms ease ;
@@ -436,7 +441,9 @@ color:#FFFFFF ;
      font-style: normal;
      
  }
- 
+ .footer-item:last-child{
+    margin: 0;
+}
 
 
  .hesder-two-link:hover {
@@ -853,7 +860,6 @@ padding-left: 0px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color:rgba(255, 255, 255, 0.6);
-
 }
 
 .footer-two-item{
@@ -861,7 +867,9 @@ color:rgba(255, 255, 255, 0.6);
     font-style: normal;
     
 }
-
+.footer-two-item:last-child{
+    margin: 0;
+}
 
 .footer-two-links{
     color:#FFFFFF;
