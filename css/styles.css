@@ -352,14 +352,14 @@ color:var(--main-title-color) ;
 }
 .section-three-list {
     display: flex;
-    margin-left: -30px;
+    margin-left: -5px;
    
 }
 
 .section-three-item{
    
     flex-basis:calc((100% -90) / 4);
-    margin-left: 30px;
+    margin-left: 0px;
 }
 .section-four-title{
     text-align: center;
