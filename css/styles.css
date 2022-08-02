@@ -530,7 +530,7 @@ padding-bottom: 94px;
     .komanda-list{
         display: flex;
      justify-content: center;
-     margin-bottom: 30px;
+   
     }
     .komanda-item{
         width: 44px;
@@ -646,7 +646,7 @@ border-radius: 4px;
        
     }
     .komanda{
-        margin-bottom: 30px;
+       
     }
     .company-logo{
         width: 106px;
