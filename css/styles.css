@@ -999,7 +999,7 @@ text-align: center;
 .modal-close-btn:focus,
 .modal-close-btn:hover
 {
-background-color: #2196F3;
+fill: #2196F3;
 }
 .is-hidden{
     visibility: hidden;
@@ -1128,7 +1128,7 @@ color: #FFFFFF;
 margin-bottom: 20px;
     }
     .footer-input{
-       
+       color: #FFFFFF;
         width:358px ;
         height:50px ;
         border: 1px solid rgba(255, 255, 255, 0.3);
