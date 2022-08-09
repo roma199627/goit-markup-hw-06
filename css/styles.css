@@ -1067,6 +1067,7 @@ fill: #2196F3;
         position: absolute;
         left: 12px;
         top: 50%;
+       
         transform: translateY(-50%);
         transition: background  250ms   cubic-bezier(0.4, 0, 0.2, 1);
     }
@@ -1130,8 +1131,11 @@ font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
 color: #FFFFFF;
+
 margin-bottom: 20px;
     }
+    
+    
     .footer-input{
        color: #FFFFFF;
         width:358px ;
@@ -1143,7 +1147,8 @@ margin-bottom: 20px;
     padding-left: 16px;
 }
 .email-btn{
-    position: relative;
+    position: absolute;
+    
     width: 200px;
     height: 50px;
     background: #2196F3;
@@ -1157,9 +1162,9 @@ border: none;
 margin-left: 12px;
 }
 .email-icon{
-   
-    position: relative;
-    
+   background-color: aliceblue;
+    position:relative ;
+  
 left: 148px;
 top: 10px;
 fill: #FFFFFF;
@@ -1169,6 +1174,8 @@ margin-left: 10px;
   
 }
 .footer-email{
+ 
     display: flex;
-   margin-left: auto;
+   margin-left: 105px;
+  
 }
