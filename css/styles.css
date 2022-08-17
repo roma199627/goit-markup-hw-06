@@ -1074,6 +1074,12 @@ fill: #2196F3;
         transform: translateY(-50%);
         transition: background  250ms   cubic-bezier(0.4, 0, 0.2, 1);
     }
+
+    .modal-icon:focus{
+        background: #2196F3;
+    }
+   
+       
     .check-text{
         font-weight: 400;
         font-size: 14px;
