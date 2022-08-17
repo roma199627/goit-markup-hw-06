@@ -1099,9 +1099,10 @@ border: 2px solid #212121 ;
         border: none;
         transition: background  250ms  cubic-bezier(0.4, 0, 0.2, 1) ;
     }
-    .modal-check:focus + .check-text::before{
+    .modal-check:checked + .check-text:focus{
         background-color:#2196F3  ;
        background: #2196F3; 
+       border: #2196F3;
     }
     .model-input:focus + .modal-icon{
         fill: #2196F3;
