@@ -1104,6 +1104,10 @@ border: 2px solid #212121 ;
        background: #2196F3; 
        border: #2196F3;
     }
+    .modal-check:focus{
+        background: #2196F3; 
+        border: #2196F3;
+    }
     .model-input:focus + .modal-icon{
         fill: #2196F3;
        
